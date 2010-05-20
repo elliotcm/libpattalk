@@ -9,14 +9,23 @@ Libertarian Paternalism in the Ruby Community
 + twitter.com/elliotcm
 + github.com/elliotcm
 
+!SLIDE bullets
+
++ People make bad decisions.
++ It is impossible to present a choice without affecting the outcome.
+
 !SLIDE
 # 1 2 3 4 #
 
 !SLIDE
 # What does this have to do with code? #
 
-!SLIDE
+!SLIDE bullets
 # How can we help our users? #
+
+1. Ensure clarity of construction.
+2. Enforce domain expert opinion.
+3. Retain user freedoms.
 
 !SLIDE
 # State of the union #

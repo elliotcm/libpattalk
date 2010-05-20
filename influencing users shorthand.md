@@ -4,14 +4,14 @@
 * put forth two key concepts:
 
 1. People make bad decisions
+  * this is supermarket while hungry
   * made in the heat of the moment
   * would not make with a clear head
-  * this is supermarket while hungry
 
 2. **impossible** to present a choice without **influencing** the decision made
   * 1 2 3 4 choice
   * impossible to present w/o influence
-  * small, medium, large, x-large?
+  * small, medium, large, supersize?
 
 
 * Following these two assertions
