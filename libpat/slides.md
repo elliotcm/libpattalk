@@ -4,7 +4,10 @@ Libertarian Paternalism in the Ruby Community
 ---------------------------------------------
 
 + **by Elliot Crosby-McCullough**
-+ elliotcm.co.uk
++ Developer, Eden Development UK
++ http://edendevelopment.co.uk
++ &nbsp;
++ http://elliotcm.co.uk
 + elliot.cm@gmail.com
 + twitter.com/elliotcm
 + github.com/elliotcm
