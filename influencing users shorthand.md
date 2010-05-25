@@ -19,7 +19,6 @@ SLIDE- (key concepts)
 
 SLIDE- (1 2 3 4 choice)
 
-  *
   * impossible to present w/o influence
   * small, medium, large, supersize?
 
