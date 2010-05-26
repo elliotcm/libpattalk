@@ -3,7 +3,9 @@
 * particularly interaction design
 * that's why interest piqued when I discovered that:
 
-* 2008, two economists named
+SLIDE- (nudge cover)
+
+* in 2008, two economists named
 * Richard Thaler and Cass Sunstein
 * wrote a book called Nudge
 * put forth two key concepts:
@@ -68,7 +70,7 @@ SLIDE- (Hick's Law)
 SLIDE- (installshield wizard, again)
 
   + no need to be a domain expert to install software
-  + domain being either software installation or the final product
+  + domain being either software installation (general) or the final product (specific)
   + allows you to mash "Next"
 
 * retaining user freedom
@@ -115,7 +117,8 @@ SLIDE- (Clawhammer code)
   + irrelevant-to-user methods pushed out of the way
 
 * pretty simple example
-* more complicated:
+
+* more complicated example:
 
 SLIDE- (M1911)
 
@@ -124,7 +127,7 @@ SLIDE- (M1911)
   + Considerably more complicated
   + harder to understand?
 
-  + 1 interface (grip)
+  + 2 interfaces (grip, slide grip)
   + 7 public methods, BUT..
   + 1 primary public method (fire / trigger)
   + 6 clearly secondary methods (saftey catches, mag eject, etc)
@@ -172,7 +175,7 @@ SLIDE- (Rails)
   * ActiveModel
 
 
-SLIDE- (HAML)
+SLIDE- (HAML, w/ code)
 
 * Hampton Catlin
 * opinionated at high level (markup)
@@ -182,7 +185,7 @@ SLIDE- (HAML)
 * some situations would benefit from freedom
 
 
-SLIDE- (37Signals)
+SLIDE- (37signals)
 
 * opinionated at a product level
 * enforce opinion as domain experts for product domains
