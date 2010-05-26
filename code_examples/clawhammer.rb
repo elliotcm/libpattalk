@@ -12,11 +12,6 @@ class Clawhammer
     def embed(nail)
       hammer(nail)
     end
-
-    private
-    def transfer_force_to_handle
-      # .. force transfer physics ..
-    end
   end
 
   def initialize(target)
@@ -45,5 +40,9 @@ class Clawhammer
   def rotate_hammer
     # .. positional physics
     transfer_force_to_handle
+  end
+
+  def transfer_force_to_handle
+    # .. force transfer physics ..
   end
 end
