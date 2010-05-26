@@ -2,8 +2,10 @@ var slides;
 var currentSlide;
 
 $(document).ready(function() {
-  document.onkeydown = keyDown
-  slides = $('.slide')
+  document.onkeydown = keyDown;
+  $('html').click(nextSlide);
+
+  slides = $('.slide');
   showSlide(0);
 })
 
