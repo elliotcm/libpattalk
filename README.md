@@ -13,6 +13,8 @@ Image acknowledgements
 
 The Nudge book cover is likely copyright [Penguin](http://penguin.co.uk), and is used here under fair use as an educational guide.
 
+The InstallShield image is of unknown copyright [Penguin](http://penguin.co.uk), and is used here under fair use as an educational guide.
+
 The [claw-hammer image](http://commons.wikimedia.org/wiki/File:Hammer2.jpg) is licenced under the [Creative Commons](http://creativecommons.org) [Attribution-Share Alike 2.5 Generic licence](http://creativecommons.org/licenses/by-sa/2.5/).
 
 The [M1911 image](http://commons.wikimedia.org/wiki/File:Colt_M1911_1688.jpg) is used with permission from [adamsguns.com](http://adamsguns.com) (via [Wikicommons](http://commons.wikimedia.org/)).
