@@ -20,3 +20,5 @@ The [claw-hammer image](http://commons.wikimedia.org/wiki/File:Hammer2.jpg) is l
 The [M1911 image](http://commons.wikimedia.org/wiki/File:Colt_M1911_1688.jpg) is used with permission from [adamsguns.com](http://adamsguns.com) (via [Wikicommons](http://commons.wikimedia.org/)).
 
 Copyrights for all other images are owned by myself, and the images are licenced under the [Creative Commons](http://creativecommons.org) [Attribution-NonCommercial-ShareAlike 3.0 Unported license](http://creativecommons.org/licenses/by-nc-sa/3.0/).
+
+If you notice any images for which you are the licence holder and do not have appropriate acknowledgements or usage under their respective licences, please post an issue via GitHub or [contact me directly](mailto:elliotcm@gmail.com).
