@@ -1,8 +1,5 @@
-Influencing Users
-=================
-
-Libertarian Paternalism in the Ruby Community
----------------------------------------------
+Influencing Users: Libertarian Paternalism in the Ruby Community
+================================================================
 
 These are the source files for my talk at [Euruko](http://euruko2010.org) on the 29th of May, 2010.
 
