@@ -25,8 +25,10 @@ SLIDE- (1 2 3 4 choice)
   * small, medium, large, supersize?
 
 
-* Following these two assertions
-* claim is made that domain experts should **present** choices to
+* claim is made by T & S that since
+  - people make bad decisions
+  - presenting a choice always influences the decision
+  - domain experts should **present** choices to
 * encourage **heat-of-the-moment** decision to match **clear-headed** decision
 * influence people to make the decision they wish they had made
 * but retain ultimate freedom of choice
@@ -46,11 +48,6 @@ SLIDE- (How can we use this?)
 SLIDE- (installshield wizard)
 
 * perfect example of lib pat as applied to computing
-* telegraphing intent, enforcing domain expert opinion, retaining user freedom
-
-
-* let's explain:
-
 
 * telegraphing intent
   + something frontend has done for a long time
@@ -59,13 +56,16 @@ SLIDE- (installshield wizard)
   + can do this because of:
 
 * enforcing domain expert opinion
+  + paternalism or opinionated code
+
   + "Typical install" option
+
+  + dramatically reduced choice
 
 SLIDE- (Hick's Law)
 
-  + dramatically reduced choice
-    - Hick's Law
-      time taken to make decision *proportional* to number of choices
+  - Hick's Law
+    time taken to make decision *proportional* to number of choices
 
 SLIDE- (installshield wizard, again)
 
@@ -74,6 +74,8 @@ SLIDE- (installshield wizard, again)
   + allows you to mash "Next"
 
 * retaining user freedom
+  + libertarian paternalism or convention over configuration
+
   + "Custom install" option
   + keeps those extra choices around for those that want them
 
@@ -90,9 +92,13 @@ SLIDE- (What about back-end code?)
 
 * Programming is the act of building tools
 * NOT TOOLING
+* building tools to solve a specific problem on a given scale
+
 * fractal nature, concentric self-similarity
 * system- applications- modules- classes- methods; all solve problems at different scales.
+
 * Ability to decide whether and how a tool solves a problem is the biggest barrier to reuse and adoption
+* if it takes time to figure out a class, give up and make your own
 
 
 
@@ -158,7 +164,7 @@ SLIDE- (M1911 code)
 
 
 
-SLIDE- (State of the union: Case studies)
+SLIDE- (Case studies from the community)
 
 * Current use of these ideas in Ruby community
 
@@ -166,23 +172,38 @@ SLIDE- (Rails)
 
 * 2.3
 * uses **different bits** of these ideas at **different scales**
+
 * enthusiastic about freedom at a method level
   * uses option hashses in ActiveRecord and view helpers
+
 * more strongly opinionated at a framework level
-  * ActiveRecord / ActionPack lock-in
+  * infamous ActiveRecord / ActionPack lock-in
+
 * Rails 3 solving this
   * Merb merge
   * ActiveModel
+
+* does well to integrate these ideas
+* moving in the right direction
 
 
 SLIDE- (HAML, w/ code)
 
 * Hampton Catlin
+
+* whitespace aware markup language
+* strict compile rules
+
 * opinionated at high level (markup)
-* 80% love it, 20% hate it
+* love / hate split
 * much less freedom, very opinionated
 * can override small areas
-* some situations would benefit from freedom
+
+* some situations would benefit from additional freedom
+* 3.0 release
+
+* not sure going to see much change in main philosophy
+* good tradeoffs
 
 
 SLIDE- (37signals)
@@ -190,7 +211,7 @@ SLIDE- (37signals)
 * opinionated at a product level
 * enforce opinion as domain experts for product domains
 * v. little freedom wrt interaction w/ the software
-* reason given emphasises potential lib pat drawbacks
+* reason 37signals gave me for this emphasises potential lib pat drawbacks
 * only so many hours in the day
 * would more freedom help sell?
 
@@ -203,24 +224,23 @@ SLIDE- (How can we help users of our code and systems?)
 1. Telegraph intent.
   * need to be clear what problem your class or method was built to solve
   * is this a hammer or screwdriver
-  * vital to providing low-friction adoption
+  * this is vital to providing low-friction adoption
   * user can decide whether it can help *them* solve *their* problem.
 
+  * classic SOLID stuff
+  * Jim Weirich
+
+
 2. Enforce domain expert opinion.
-  * useful implementation of Hick's Law
-    * time to make decision *proportional* to number of choices
   * 25 options for pension plan, 25 ways to use a class
-  * provide guidance by way of reduced choices
+  * provide guidance by reducing choices
   * as domain expert, find the 80% and implement
-  * paternalism or opinionated code
+
 
 3. Retain user freedoms.
   * not always 80/20 for squirrelly / generic problems
   * allow advanced users freedom
   * still enforce domain expert opinion in **default state**
-  * custom option
-  * in code => options hashes most common
-  * libertarian paternalism or convention over configuration
 
 
 * should not be realm of UX designers
