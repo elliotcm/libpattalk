@@ -7,23 +7,19 @@ $(document).ready(function() {
   showSlide(0);
 })
 
-function keyDown(event)
-{
+/*
+  keyDown is a pared down version of a method borrowed
+  from Scott Chacon's Showoff
+*/
+function keyDown(event) {
     var key = event.keyCode;
 
-    if (event.ctrlKey || event.altKey || event.metaKey) {return true;}
-
-    if (key == 32) // space bar
-    {
+    if (key == 32 || key == 39) {
+      // Space bar or right arrow
       nextSlide();
-    }
-    else if (key == 37 || key == 33) // Left arrow or page up
-    {
+    } else if (key == 37) {
+      // Left arrow
       prevSlide()
-    }
-    else if (key == 39 || key == 34) // Right arrow or page down
-    {
-      nextSlide()
     }
 
     return true
